@@ -1,21 +1,29 @@
 {
-    "name": "mongoose_skeleton",
-    "version": "1.0.0",
-    "description": "",
-    "main": "server.js",
-    "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1",
-        "start": "node server.js",
-        "watch": "nodemon server.js"
-    },
-    "author": "",
-    "license": "ISC",
-    "dependencies": {
-        "axios": "^0.16.2",
-        "body-parser": "^1.18.3",
-        "cheerio": "^1.0.0-rc.2",
-        "express": "^4.16.3",
-        "mongoose": "^5.1.5",
-        "morgan": "^1.9.0"
-    }
+  "name": "mongo_scraper",
+  "version": "1.0.0",
+  "description": "# All the News That's Fit to Scrape",
+  "main": "server.js",
+  "dependencies": {
+    "axios": "^0.16.2",
+    "body-parser": "^1.18.3",
+    "cheerio": "^1.0.0-rc.2",
+    "express": "^4.16.3",
+    "mongoose": "^5.1.5",
+    "morgan": "^1.9.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KTWangster/mongo_scraper.git"
+  },
+  "author": "Katherine Wang",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KTWangster/mongo_scraper/issues"
+  },
+  "homepage": "https://github.com/KTWangster/mongo_scraper#readme"
 }
